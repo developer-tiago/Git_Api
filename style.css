@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.container {
+    height: 68.8rem;
+    width: 112rem;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    margin-top: 11.5rem;
+}
+
+input {
+    height: 4.8rem;
+    width: 46.2rem;
+
+    margin-left: 29.3rem;
+
+    background: #06181C;
+    color: #7C7C8A;
+    border-radius: .5rem;
+    border: none;
+    padding: 1.6rem;
+}
+
+header button {
+    height: 4.8rem;
+    width: 17rem;
+
+    background: #065E7C;
+    color: #FFF;
+    border-radius: .5rem;
+    border: none;
+
+    margin-left: .8rem;
+
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: .8rem;
+
+    cursor: pointer;
+}
+
+main {
+    margin: 0 auto;
+
+    height: 68.8rem;
+    width: 112rem;
+}
+
+table {
+    color: #FFF;
+    font-size: 2rem;
+
+    border: 1px solid #4A808C;
+
+    margin-top: 8.7rem;
+
+    text-align: left;
+
+    border-collapse: collapse; 
+}
+
+table img {
+    height: 5.8rem;
+    width: 5.8rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+table tbody a {
+    text-decoration: none;
+
+}
+
+table tbody a:visited {
+    color: #E1E1E6;
+
+}
+
+table tbody a:link {
+    color: #E1E1E6;
+}
+
+table button {
+    background: none;
+    color: #F75A68;
+    cursor: pointer;
+
+    height: 5.6rem;
+    width: 8.5rem;
+
+    border: none;
+}
+
+table td, table th {
+    padding-left: 4rem;
+}
+
+table th:first-child {
+    height: 6.4rem;
+    width: 50.4rem;
+
+    border-radius: 1.2rem 0 0 0;
+}
+
+table th:nth-child(2) {
+    height: 6.4rem;
+    width: 21.8rem
+}
+
+table th:nth-child(3) {
+    height: 6.4rem;
+    width: 21.8rem
+}
+
+table th:last-child {
+    height: 6.4rem;
+    width: 17.8rem;
+
+    border-radius: 0 1.2rem 0 0;
+}
+
+table th {
+    background: #092D38;
+    color: #E1E1E6;
+
+    font-weight: 2rem;
+    line-height: 160%;
+}
+
+table td {
+    height: 10.4rem;
+}
+
+table tbody tr td:first-child{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+table tbody td p:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+table tbody tr:nth-child(odd) {
+    background: rgba(6, 22, 27, 0.5);
+}
+
+table tbody tr:nth-child(even) {
+    background: #06181C;
+}
+
